@@ -1,0 +1,43 @@
+{
+  "input": {
+    "user_id": "",
+    "target": {
+      "job": "",
+      "industry": "",
+      "region": ""
+    },
+    "profile": {
+      "education": "",
+      "skills": [],
+      "certificates": [],
+      "projects": [
+        {
+          "name": "",
+          "description": "",
+          "tech_stack": []
+        }
+      ],
+      "activities": [],
+      "training_history": []
+    }
+  },
+  "output": {
+    "portfolio_summary": "",
+    "strength_tags": [],
+    "skill_tags": [],
+    "ncs_tag_candidates": [],
+    "next_step_for_f02": {
+      "target_job": "",
+      "target_region": "",
+      "skills": [],
+      "certificates": [],
+      "projects": [
+        {
+          "name": "",
+          "tech_stack": []
+        }
+      ],
+      "ncs_tag_candidates": []
+    }
+  }
+}

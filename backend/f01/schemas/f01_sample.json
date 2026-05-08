@@ -1,0 +1,43 @@
+{
+  "input": {
+    "user_id": "demo_user_01",
+    "target": {
+      "job": "백엔드 개발자",
+      "industry": "IT 서비스",
+      "region": "충청권"
+    },
+    "profile": {
+      "education": "소프트웨어학과 재학",
+      "skills": ["Python", "SQL", "FastAPI"],
+      "certificates": ["정보처리기사 필기 합격"],
+      "projects": [
+        {
+          "name": "AI 포트폴리오 추천 서비스",
+          "description": "공공데이터와 AI를 활용한 취업 지원 서비스",
+          "tech_stack": ["Python", "Streamlit", "FastAPI"]
+        }
+      ],
+      "activities": ["BDAI LLM/RAG 조별활동"],
+      "training_history": []
+    }
+  },
+  "output": {
+    "portfolio_summary": "충청권 IT 서비스 분야의 백엔드 개발자를 희망하는 소프트웨어 전공자입니다.",
+    "strength_tags": ["AI 프로젝트 경험", "Python 기초", "SQL 기초"],
+    "skill_tags": ["Python", "SQL", "FastAPI"],
+    "ncs_tag_candidates": ["응용SW엔지니어링", "데이터베이스", "서버프로그램구현"],
+    "next_step_for_f02": {
+      "target_job": "백엔드 개발자",
+      "target_region": "충청권",
+      "skills": ["Python", "SQL", "FastAPI"],
+      "certificates": ["정보처리기사 필기 합격"],
+      "projects": [
+        {
+          "name": "AI 포트폴리오 추천 서비스",
+          "tech_stack": ["Python", "Streamlit", "FastAPI"]
+        }
+      ],
+      "ncs_tag_candidates": ["응용SW엔지니어링", "데이터베이스", "서버프로그램구현"]
+    }
+  }
+}
